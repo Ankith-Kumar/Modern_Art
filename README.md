@@ -1,2 +1,2 @@
 # Modern_Art
-Random art generator in Python
+Random art generator in Python, requires Pygame modules
