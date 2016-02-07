@@ -8,7 +8,7 @@ import eventListener #my custom module
 
 
 pygame.init() 
-screen = pygame.display.set_mode([1780, 960])#Creates window size [1780, 960]
+screen = pygame.display.set_mode([1080, 960])#Creates window size [1780, 960]
 screen.fill([random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)]) #Window random background
 eventListener.listen(screen)#starts eventlistener & shapeGenerators
 
