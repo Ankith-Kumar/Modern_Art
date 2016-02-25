@@ -35,5 +35,5 @@ def generate(numberOfShapes, screen): # Random shapes generator method
         elif shapeValue >= 16 and shapeValue <= 20:#arc with angles
             pygame.draw.arc(screen, color, [left, top, width, height], start_angle, stop_angle, 1)
         elif shapeValue == 21:#a triangle (I know it says polygon but there is no triangle method)
-            pygame.draw.polygon(screen, color, [[random.randint(0, 1780), random.randint(0, 960)], [random.randint(0, 1780), random.randint(0, 960)], [random.randint(0, 1780), random.randint(0, 960)]], random.randint(1, 3))
+            pygame.draw.polygon(screen, color, [[random.randint(0, 1780), random.randint(0, 960)], [random.randint(0, 1780), random.randint(0, 960)], [random.randint(0, 1780), random.randint(0, 960)]], random.randint(0, 3))
     pygame.display.flip() #render the shapes
